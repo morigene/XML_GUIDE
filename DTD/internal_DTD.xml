@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note[
+<!ELEMENT note (to,from,heading,body,br)>
+<!ELEMENT br EMPTY>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+<!--  Adding Attribue(element name, attribute name, attribute_type and attribute_Value) -->
+<!ATTLIST to precise CDATA #REQUIRED>
+<!--  implied may include or not, fixed : value of attribute never changed -->
+]>
+<note>
+	<to precise ="Tove">Tove</to>
+	<from>Jani</from>
+	<heading>Reminder</heading>
+	<body>Don't forget me this weekend</body>
+	<br/> 
+</note>

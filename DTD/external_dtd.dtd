@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employees SYSTEM "external_dtd.dtd">
+<!ELEMENT employees(employee+)>
+<!ELEMENT employee(name,salary)>
+<!ELEMENT salary(#PCDATA)>
+<!ELEMENT name(#PCDATA)>

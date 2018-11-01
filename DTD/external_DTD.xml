@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employees SYSTEM "external_dtd.dtd">
+<employees>
+	<employee>
+		<name>origene</name>
+		<salary>5,000</salary>
+		<id>20</id>
+	</employee>
+	 <employee>
+		<name>Emmanuel</name>
+		<salary>10,000</salary>
+	</employee>
+	 <employee>
+		<name>JP</name>
+		<salary>7,000</salary>sss
+	</employee>
+		 <employee>
+		<name>Emmanuel</name>
+		<salary>6,000</salary>
+	</employee>
+</employees>
